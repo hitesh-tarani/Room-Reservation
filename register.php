@@ -4,6 +4,10 @@ if($_GET['err']==1)
 {
  $error="Please choose another username";
 }
+else if($_GET['err']==2)
+{
+ $error="Please choose another username";
+}
 else
 {
 if(isset($_POST['commit']))
@@ -12,6 +16,7 @@ $db = mysql_connect("localhost", "root", "hitesh_1995");
 mysql_select_db("Mini",$db);
 $user=$_POST['login'];
 $password=$_POST['password'];
+$chk_password=$_POST['chk_password'];
 $sql = "select count(Username) as count from LOGIN where Username='$user'";
 $result = mysql_query($sql);
 $fet=mysql_fetch_array($result);
@@ -19,6 +24,11 @@ if($fet['count']!=0)
 {
  header("Location: register.php?err=1");
 }
+else if($password!=$chk_password)
+{
+ header("Location: register.php?err=2");
+}
+
 else
 {
  if ($count == 0) {
