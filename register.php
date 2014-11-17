@@ -6,7 +6,7 @@ if($_GET['err']==1)
 }
 else if($_GET['err']==2)
 {
- $error="Please choose another username";
+ $error="Please check your password";
 }
 else
 {
