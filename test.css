@@ -1,0 +1,445 @@
+div{
+border: 0;
+font: inherit;
+font-size: 100%;
+margin: 0;
+outline: 0;
+padding: 0;
+vertical-align: baseline;
+}
+.light-wrap,.content--card{
+	border:1px solid #c2c7d0;
+	background:#fff
+}
+
+.light-wrap.table-wrap,.table-wrap.content--card{
+	overflow:hidden
+}
+
+.light-wrap.content-wrap,.content-wrap.content--card{
+	background-color:#f7f8f8
+}
+ .homepage_admin{
+	border:1px solid #c2c7d0;
+	margin-bottom:0;
+	margin-top:50px
+}
+.homepage_admin{
+	background:white;
+	width:450px;
+	margin:60px auto 30px;
+	padding:30px;
+	position:relative
+}
+
+.homepage_admin .login_tab{
+	position:relative
+}
+
+.homepage_admin .login_tab .toggle{
+	position:absolute;
+	top:-80px;
+	font-family:"Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+	padding:20px 0;
+	width:255px;
+	height:20px;
+	font-size:20px;
+	font-weight:700;
+	color:#444;
+	text-align:center;
+	border:1px solid #C2C7D0;
+	background:#fafafa;
+	z-index:10
+}
+
+.homepage_admin .login_tab .toggle a{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	line-height:60px;
+	color:#979faf;
+	text-decoration:none;
+}
+
+.homepage_admin .login_tab .toggle.active{
+	border-bottom:1px solid #fff;
+	background:#fff;
+	z-index:20
+}
+
+.homepage_admin .login_tab .toggle.active a{
+	color:#444
+}
+
+.homepage_admin .login_tab .login-toggle{
+	left:-31px
+}
+
+.homepage_admin .login_tab .login-toggle.active{
+	box-shadow:2px -1px 3px rgba(0,0,0,0.05)
+}
+
+.homepage_admin .login_tab .signup-toggle{
+	right:-31px
+}
+
+.homepage_admin .login_tab .signup-toggle.active{
+	box-shadow:-2px -1px 3px rgba(0,0,0,0.05)
+}
+
+.homepage_admin .login_tab .create-account-toggle{
+	right:-31px;
+	width:510px
+}
+
+.homepage_admin .login_tab .create-account-toggle.active{
+	box-shadow:-2px -1px 3px rgba(0,0,0,0.05)
+}
+
+.homepage_notify{
+	background:white;
+	width:600px;
+	margin:60px auto 30px;
+	padding:30px;
+	position:relative
+}
+
+.legacy-form input{
+	display:block;
+	padding:10px 10px 10px 50px;
+	height:auto;
+	width:450px
+}
+
+.legacy-form.home-form input{
+	width:100%
+}
+
+.legacy-form input[type=checkbox]{
+	display:inline;
+	width:auto
+}
+
+.legacy-form .formgroup{
+	position:relative
+}
+
+.legacy-form .formgroup i{
+	position:absolute;
+	top:1px;
+	left:1px;
+	bottom:1px;
+	padding-top:8px;
+	width:40px;
+	font-size:20px;
+	border-radius:4px 0 0 4px;
+	text-align:center;
+	color:#979faf
+}
+
+.legacy-form .formgroup i:before{
+	margin-right:0
+}
+
+.password-retrieve{
+	line-height:30px
+}
+.password-retrieve-area{
+	background:#f8f8f8;
+	margin:-30px auto 30px;
+	width:450px;
+	border:1px solid #C2C7D0;
+	border-top:none;
+	padding:10px 30px;
+	-webkit-border-radius:0 0 5px 5px;
+	-moz-border-radius:0 0 5px 5px;
+	-ms-border-radius:0 0 5px 5px;
+	-o-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+	-webkit-background-clip:padding-box;
+	-moz-background-clip:padding;
+	-ms-background-clip:padding-box;
+	-o-background-clip:padding-box;
+	background-clip:padding-box
+}
+
+.password-retrieve-area input{
+	display:block;
+	padding:10px;
+	height:auto;
+	width:450px
+}
+.clearfix:before,.clearfix:after{
+	display:table;
+	content:"";
+	line-height:0
+}
+
+.clearfix:after{
+	clear:both
+}
+.homepage_admin .login_tab {
+    position: relative;
+}
+
+ul.unstyled{
+	list-style:none
+}
+
+ul.horizontal li{
+	display:inline
+}
+
+ul.horizontal a,ul.horizontal img{
+	float:left
+}
+
+ul{
+	list-style-type:none;
+	margin:0
+    border: 0px none;
+    font-family: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    font-size: 100%;
+    margin: 0px;
+    outline: 0px none;
+    padding: 0px;
+    vertical-align: baseline;
+}
+.legacy-form .formgroup i {
+position: absolute;
+top: 1px;
+left: 1px;
+bottom: 1px;
+padding-top: 8px;
+width: 40px;
+font-size: 20px;
+border-radius: 4px 0 0 4px;
+text-align: center;
+color: #979faf;
+}
+.homepage_admin .login_tab .toggle {
+    position: absolute;
+    top: -80px;
+    font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+    padding: 20px 0px;
+    width: 255px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #444;
+    text-align: center;
+    border: 1px solid #C2C7D0;
+    background: none repeat scroll 0% 0% #FAFAFA;
+    z-index: 10;
+}
+ul.horizontal li{
+    display: inline;
+}
+li{
+    border: 0px none;
+    font-family: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    font-size: 100%;
+    margin: 0px;
+    outline: 0px none;
+    padding: 0px;
+    vertical-align: baseline;
+}
+a{
+    border: 0px none;
+    font-family: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    font-size: 100%;
+    margin: 0px;
+    outline: 0px none;
+    padding: 0px;
+    vertical-align: baseline;
+}
+.legacy-form .formgroup i{
+position: absolute;
+top: 1px;
+left: 1px;
+bottom: 1px;
+padding-top: 8px;
+width: 40px;
+font-size: 20px;
+border-radius: 4px 0 0 4px;
+text-align: center;
+color: #979faf;
+}
+.icon-user{
+content: url(images/user.png);
+}
+.icon-lock{
+content: url(images/password.png);
+}
+.icon-phone{
+content: url(images/phone.png);
+}
+
+select, textarea, input[type="text"], .fake_file_text, input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], .uneditable-input, .static-input {
+border: 1px solid #c2c7d0;
+border-radius: 5px;
+box-shadow: inset 0 1px 2px rgba(151,159,175,0.1),inset 0 1px 15px rgba(151,159,175,0.05);
+box-sizing: border-box;
+color: #39424e;
+display: inline-block;
+font-size: 16px;
+line-height: 1.7em;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+margin-bottom: 10px;
+padding: 7px 10px;
+transition: all 0.3s ease;
+}
+select{
+width: 100%;
+height: auto;
+padding: 10px 0px 10px 15px;
+color: black;
+background-color: white;
+}
+.legacy-form input {
+display: block;
+padding: 10px 10px 10px 50px;
+height: auto;
+width: 450px;
+}
+input {
+font-family: "Whitney SSm A","Whitney SSm B",verdana,"Lucida Grande",sans-serif;
+}
+
+.btn-primary{
+color: #ffffff;
+text-shadow: none;
+border-color: #088837;
+border-bottom-color: #007827;
+background: #2ec866;
+background-color: #29b35b;
+background-image: -webkit-gradient(linear, top left, bottom left, color-stop(0, #2ec866), color-stop(1, #29b35b));
+background-image: -webkit-linear-gradient(top, #2ec866, #29b35b);
+}
+.btn{
+cursor: pointer;
+display: inline-block;
+padding: 10px 15px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+margin-bottom: 0;
+padding: 10px 15px;
+position: relative;
+line-height: 18px;
+text-align: center;
+text-decoration: none !important;
+vertical-align: center;
+}
+.span4 {
+width: 25%;
+min-width: 240px;
+}
+label {
+display: block;
+margin-bottom: 5px;
+line-height: 30px;
+font-weight: 600;
+float: left;
+}
+small{
+-webkit-font-smoothing: antialiased;
+border-bottom-color: rgb(57, 66, 78);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(57, 66, 78);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(57, 66, 78);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(57, 66, 78);
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(57, 66, 78);
+cursor: default;
+font-family: 'Whitney SSm A', 'Whitney SSm B', verdana, 'Lucida Grande', sans-serif;
+font-size: 13px;
+font-stretch: normal;
+font-style: normal;
+font-variant: normal;
+font-weight: 600;
+height: auto;
+line-height: 30px;
+margin-bottom: auto;
+margin-left: 141px;
+margin-right: auto;
+margin-top: 0px;
+outline-color: rgb(57, 66, 78);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+vertical-align: baseline;
+width: auto;
+}
+a small{
+border-image-width: 1;
+border-left-color: rgb(0, 118, 185);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 118, 185);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 118, 185);
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(0, 118, 185);
+outline-color: rgb(0, 118, 185);
+display: block;
+width: auto;
+float: none;
+margin-top: 10px;
+cursor:pointer;
+}
+.block-center {
+border: 1px solid #c2c7d0;
+border-radius: 5px;
+box-sizing: border-box;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+}
